@@ -1,4 +1,4 @@
-const HeroSection = () => {
+export const HeroSection = () => {
     return (
         <div style={heroStyle}>
             <h1>Welcome to Our Website</h1>
@@ -24,5 +24,3 @@ const buttonStyle = {
     fontSize: '18px',
     marginTop: '20px',
 };
-
-export default HeroSection;
