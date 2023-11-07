@@ -9,10 +9,18 @@ function App() {
     <div >
       <Header />
       <HeroSection />
+      <div style={form_style}>
       <Form />
+      </div>
       <Footer />
     </div>
   );
+}
+
+const form_style = {
+  margin: 'auto',
+  width: '50%',
+  padding: '10px'
 }
 
 export default App;
