@@ -1,7 +1,7 @@
 export default function Header() {
     return (
         <header style={headerStyle}>
-            <h1>My Website</h1>
+            <h1>Arif's Website</h1>
             <nav>
                 <ul style={navStyle}>
                     <li><a href="/" style={linkStyle}>Home</a></li>
