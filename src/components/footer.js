@@ -6,11 +6,12 @@ const Footer = () => {
     <footer className="bg-dark text-light p-3">
       <Container>
         <Row>
-          <Col>
-            <h5>Footer Title</h5>
-            <p>Some footer content goes here.</p>
+          <Col lg={4} md={6} sm={12}>
+            <h5>Arif Hussain</h5>
+            <p>Full Stack Developer with 2 years of experience in developing
+              web applications. </p>
           </Col>
-          <Col>
+          <Col lg={4} md={6} sm={12}>
             <h5>Links</h5>
             <ul className="list-unstyled">
               <li><a href="#">Home</a></li>
@@ -18,7 +19,7 @@ const Footer = () => {
               <li><a href="#">Contact</a></li>
             </ul>
           </Col>
-          <Col>
+          <Col lg={4} md={6} sm={12}>
             <h5>Contact Info</h5>
             <address>
               123 Example Street<br />
