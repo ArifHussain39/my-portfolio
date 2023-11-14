@@ -22,6 +22,7 @@ function App() {
       <Projects />
 
       <div className="review-section">
+        <h1 className="text-center">Reviews</h1>
         <Tabs
           defaultActiveKey="profile"
           id="uncontrolled-tab-example"
